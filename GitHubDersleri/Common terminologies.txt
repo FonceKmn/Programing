@@ -1,0 +1,11 @@
+Repository: Same As Forlder but if it is related to gid Or github it is called as Repository
+Branch: 
+Commit: versiyalar
+Merge: 
+Stash: 
+Pull: 
+Push: 
+Fetch: 
+Remote: 
+Origin: 
+Head Commit : en sonuncu commit

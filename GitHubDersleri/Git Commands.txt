@@ -1,0 +1,17 @@
+git --version                                               : versiyani yoxlamaq                            
+git config --global user.name "Kamran.A"                    : user nmani add elemek
+git config --global user.email "jkrkmn@gmail.com"           : maili add elemek
+git init                                                    : initialized elemek ucun hemin papqani
+git status                                                  : inspects the contents of the working directory and staging area
+git add   1.txt  2.txt                                      : adds files from the working directory to the staging area
+git diff                                                    : shows the difference between the working directory and the staging area
+git commit                                                  : commit eliyir reposotoriye
+git commit -m "comitin menasi"                              : commit eliyib mesage yazmag ucun
+git -a -m "Commitin adi"                                    : premoy commit eliyir add qarishiq ve mesage atir
+git log                                                     : oldugun branchda historyini cixardir
+git remote add origin https://github.com/FonceKmn/test.git  : remote add githuba
+git push -u origin master                                   : origine brancha birleshdirir
+git show HEAD                                               : En son Commiti gosterir
+git checkout HEAD changes.txt                               : directorideki fileni Headla eynileshdirir
+git reset HEAD filename                                     : stag areadaki fileyle headi eynisheldirir
+git reset commit_SHA                                        : This command works by using the first 7 characters of the SHA of a previous commit. For example, if the SHA of the previous commit is 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba, use: git reset 5d69206 HEAD is now set to that previous commit.
