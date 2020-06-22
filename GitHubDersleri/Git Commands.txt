@@ -9,7 +9,7 @@ git commit                                                  : commit eliyir repo
 git commit -m "comitin menasi"                              : commit eliyib mesage yazmag ucun
 git -a -m "Commitin adi"                                    : premoy commit eliyir add qarishiq ve mesage atir
 git log                                                     : oldugun branchda historyini cixardir
-git remote add origin https://github.com/FonceKmn/test.git  : remote add githuba
+git remote add origin https://github.com/FonceKmn/test.git  : remote add githuba Bunu Burta Add eliyrem te4st ucun maraglidi sadece
 git push -u origin master                                   : origine brancha birleshdirir
 git show HEAD                                               : En son Commiti gosterir
 git checkout HEAD changes.txt                               : directorideki fileni Headla eynileshdirir
