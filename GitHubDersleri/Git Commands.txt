@@ -22,4 +22,7 @@ git branch                                                  : Current branch
 git branch --all                                            : Shows all branches
 git merge bracnh_name   (master branchda olanda yazirsan)   : Merge birleshdirir master brancha
 git branch -d branch_name                                   : branchi silir
-
+git clone remote_location clone_name                        : Remoteden clone alir teze depository teshkil eliyir
+git fetch                                                   : remotede deyishiklik olubsa clounluyur local directoriye
+git merge origin/master                                     : neylediyi sual altindadi cox ehtimal local mastere merge eliyir 
+git push origin your_branch_name                            : will push your branch up to the remote, origin
