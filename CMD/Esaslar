@@ -1,26 +1,26 @@
-ls : list files
-ls -a : list hidden files too
-ls -l : lists all contents of a directory in long format
-ls -t : order files and directories by the time they were last modified.
-ls -alt : list everything everything 
-pwd : print working directory
-cd : change directory
-cd : To move up one directory,
-mkdir : making directory
-touch : creation of the world
-mv filename directory : moves file
-cp filename directoery : copy files
-rm : removbes files
-rm -r : recursiv silir all chiled directories too
-rm director/* : deletess all files indirector
-echo "Hello" > hello.txt : creation
-cat hello.txt : read file
+ls                             : list files
+ls -a                          : list hidden files too
+ls -l                          : lists all contents of a directory in long format
+ls -t                          : order files and directories by the time they were last modified.
+ls -alt                        : list everything everything 
+pwd                            : print working directory
+cd                             : change directory
+cd                             : To move up one directory,
+mkdir                          : making directory
+touch                          : creation of the world
+mv filename directory          : moves file
+cp filename directoery         : copy files
+rm                             : removbes files
+rm -r                          : recursiv silir all chiled directories too
+rm director/*                  : deletess all files indirector
+echo "Hello" > hello.txt       : creation
+cat hello.txt                  : read file
 cat glaciers.txt > rivers.txt  : outputs only glaciers
 cat glaciers.txt >> rivers.txt : output botth
-sort file.txt : elifba sirasina gore duzur icini
-uniq : similarlari silir
-grep Mount mountains.txt : grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for “Mount” in mountains.tx
-grep -i Mount mountains.txt : grep -i enables the command to be case insensitive. Here, grep searches for capital or lowercase strings that match Mount in mountains.txt.
+sort file.txt                  : elifba sirasina gore duzur icini
+uniq                           : similarlari silir
+grep Mount mountains.txt       : grep stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results. It is also case sensitive. Here, grep searches for “Mount” in mountains.tx
+grep -i Mount mountains.txt    : grep -i enables the command to be case insensitive. Here, grep searches for capital or lowercase strings that match Mount in mountains.txt.
 sed 's/snow/rain/' forests.txt : sed stands for “stream editor”. It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to “find and replace”.
 /*
 Let’s look at the expression 's/snow/rain/':
@@ -29,3 +29,13 @@ s: stands for “substitution”. it is always used when using sed for substitut
 snow: the search string, the text to find.
 rain: the replacement string, the text to add in place.
 */
+
+                                                            How To Use Nano Text Editor                       
+nano test.txt : to Open File
+Ctrl + O      : (the letter, not the number) to save the file
+ctrl + x      : for leaving rom nano
+Ctrl + G      : opens a help menu.
+Nano ~/.bash_profile Terminalin bash profiline girir ~ main directorye aparir . de hidden fileler ucundu
+source ~/.bash_profile / Terminalda bash profile girib deyishenden sonra source yaadna reset elemeden deyishiklikleri isdifade elemeye bashliyir
+echo "Welcome Kamran.A"
+alias pd="pwd"
