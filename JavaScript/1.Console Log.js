@@ -39,7 +39,7 @@ var name = "Kamran";  // String
 var reqem = 15;       // Integer
 var pass = true;      // Boolean
 var heyvanlar =  ["cat","dog"];  // Array
-heyvanlar.push("Ordek");
+heyvanlar.push("Ordek"); // adding new elements to an array
 var person = {name: "Kamran", surname: "Ahmadzade", age: "23"};  // Object
 var boshlug = null;   // Empty
 
