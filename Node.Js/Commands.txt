@@ -1,0 +1,4 @@
+node -v       : check version of node js
+node intro.js : ile run olunur dedicated local hostda
+npm install -g nodemon : globla olaraq module yukluyur
+nmp install express --save : local yukleme ucun
