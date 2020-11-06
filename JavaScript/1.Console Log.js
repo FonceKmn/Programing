@@ -42,4 +42,6 @@ var heyvanlar =  ["cat","dog"];  // Array
 heyvanlar.push("Ordek"); // adding new elements to an array
 var person = {name: "Kamran", surname: "Ahmadzade", age: "23"};  // Object
 var boshlug = null;   // Empty
-
+"He said \" Salam\"" 
+'He said "Hello"'
+"He said 'Hello'"

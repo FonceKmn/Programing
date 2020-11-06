@@ -1,3 +1,4 @@
+//Hemishe adi boyukle bashlasa yaxshi olar
 function ishci (ad,soyad,nomre){
     this.ad = ad;
     this.soyad = soyad;
