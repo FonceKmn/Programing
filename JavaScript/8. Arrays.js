@@ -24,7 +24,11 @@ fruits.indexOf('Banana')
 //pos hardan bashlamagidi 1 de necesini SubString Kimi
 fruits.splice(pos, 1)
 
-//
+// Axtarmaq Ucun
+if ( fruits.indexOf('alma')!==-1 {
+  console.log('tapildi');
+}
+
 
 
 //For Each

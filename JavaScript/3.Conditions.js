@@ -40,6 +40,6 @@ switch (athleteFinalPosition) {
     break;
 }
 
-
+//Break da diyanir amma continue de hemin tmeani skip kecir davam eliyir 
 
 
