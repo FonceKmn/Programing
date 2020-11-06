@@ -1,4 +1,5 @@
 //                                                              JavaScript (1995) Java (1996) 
+                                          <!--esas urekdi-->  buda yorumdu
 alert("salam") // ekrana notification yazdirmaq ucun
 Console.log("My age is 5"); // Java Script is case sensetive language
 
